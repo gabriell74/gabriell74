@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(245, 236, 201);
+  }
+  
+  .navbar {
+    padding: 10px 20px;
+    background-color: rgb(111, 222, 255);
+    width: auto;
+    transition: margin-left 0.3s; /* Tambahkan transisi untuk margin */
+    display: flex;
+  }
+
+ .navbar input {
+  width: 300px;
+  margin-left:auto;
+
+ }
+
+  .navbar button {
+    background-color: rgb(111, 222, 255);
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(111, 222, 255);
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    color: black;
+    }
+    
+    .sidebar img {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 92%;
+    background-color: white;
+    }
+    
+    .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    
+    .sidebar ul li {
+    padding: 8px 20px;
+    }
+    
+    .sidebar ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    }
+    
+    .sidebar ul li a:hover {
+    color: rgb(234, 36, 72);
+    }
+    
+    /* Tombol close */
+    .close-btn {
+    position: absolute;
+    display:inline-flex;
+    top: 3px;
+    right: 5px;
+    font-size: 20px;
+    color:white;
+    background-color:red;
+    border: none;
+    cursor: pointer;
+    }
+
+  .content {
+    padding: 20px;
+    margin-left: 0;
+    transition: margin-left 0.3s;
+  }
+  
+  .table thead {
+    background-color: #f7f7f7;
+  }
+  
+  .input-group-text {
+    background-color: #f7f7f7;
+  }
+  
+  .table-responsive {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .filbar input {
+    width: 80%;
+    border-radius: 20px;
+    }

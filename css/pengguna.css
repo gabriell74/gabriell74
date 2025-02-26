@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(245, 236, 201);
+  }
+  
+  .navbar {
+    padding: 10px 20px;
+    background-color: rgb(111, 222, 255);
+    width: auto;
+    transition: margin-left 0.3s; /* Tambahkan transisi untuk margin */
+    display: flex;
+  }
+
+  .navbar button {
+    background-color: rgb(111, 222, 255);
+    border: none;
+    cursor: pointer;
+  }
+  
+  /*content*/
+  .content {
+    padding: 20px;
+  }
+
+  /* Sidebar */
+  .sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(111, 222, 255);
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  color: black;
+  }
+  
+  .sidebar img {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 92%;
+  background-color: white;
+  }
+  
+  .sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  
+  .sidebar ul li {
+  padding: 8px 20px;
+  }
+  
+  .sidebar ul li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  }
+  
+  .sidebar ul li a:hover {
+  color: rgb(234, 36, 72);
+  }
+  .tambah {
+    
+  }
+  .close-btn {
+  position: absolute;
+  display:inline-flex;
+  top: 3px;
+  right: 5px;
+  font-size: 20px;
+  color:white;
+  background-color:red;
+  border: none;
+  cursor: pointer;
+  }
+  
+  /* Konten Utama */
+  .main-content {
+  margin-left: 0;
+  transition: margin-left 0.3s;
+  padding: 20px;
+  }
+  
+  .table-responsive {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .exit {
+  display: block;
+  bottom: 100%;
+  left: 50px;
+  }
+  
+  .filbar input {
+    width: 80%;
+    border-radius: 20px;
+    }

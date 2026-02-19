@@ -1,13 +1,14 @@
 # Hi, I'm Gabriel
 
-Software Engineering student with an interest in backend development and system design.  
-I like understanding how systems work behind the scenes and building applications with clear architecture.
+Software Engineering student interested in backend development and system design.  
+I enjoy understanding how software systems are designed and building applications with solid foundations.
 
 Currently learning and working with:
 - PHP / Laravel
+- Dart / Flutter
 - Node.js / NestJS
 - MySQL
 - Python
-- IoT Systems
+- IoT systems
 
-Continuously improving, still learning, still building.
+Continuously improving and building.

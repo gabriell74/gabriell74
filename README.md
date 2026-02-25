@@ -1,7 +1,7 @@
 # Hi, I'm Gabriel
 
 Software Engineering student interested in backend development and system design.  
-I enjoy understanding how software systems are designed and building applications with solid foundations.
+Enjoys understanding how software systems are designed and building applications with solid foundations.
 
 Currently learning and working with:
 - PHP / Laravel

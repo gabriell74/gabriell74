@@ -1,4 +1,4 @@
-# Hi, I'm Gabriel
+# Hello, I'm Gabriel
 
 Software Engineering student interested in backend development and system design.  
 Enjoys understanding how software systems are designed and building applications with solid foundations.
